@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="font-['kumbh_Sans'] min-h-screen flex justify-center items-center p-5"
+  >
+    <main class="relative bg-white max-w-sm rounded-2xl p-5">
+      <div class="rounded-lg">
+        <img src="./images/bg-pattern-card.svg" class="w-full rounded-lg" />
+      </div>
+      <div>
+        <img
+          src="./images/image-victor.jpg"
+          class="rounded-full absolute top-[90px] left-1/2 -translate-x-1/2"
+        />
+      </div>
+      <div class="pt-24 pb-6 text-center bg-red-400">
+        <h1>victor crest 26<br />br>london</h1>
+        <hr class="bg-gray-400" />
+        <div class="flex justify-around">
+          <div class="">
+            <p>80K</p>
+            <p>Followers</p>
+          </div>
+          <div class="">
+            <p>80K</p>
+            <p>Followers</p>
+          </div>
+          <div class="">
+            <p>80K</p>
+            <p>Followers</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
